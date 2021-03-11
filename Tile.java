@@ -5,14 +5,11 @@ public abstract class Tile {
 	protected boolean flag;
 	protected boolean opened;
 
-	/**
-	 * 
-	 * @param x
-	 * @param y
-	 */
 	public Tile(int x, int y) {
-		// TODO - implement Tile.Tile
-		throw new UnsupportedOperationException();
+		posX = x;
+		posY = y;
+		flag = false;
+		opened = false;
 	}
 
 	public int getPosX() {

@@ -1,13 +1,9 @@
 public class Empty extends Tile {
 
-	/**
-	 * 
-	 * @param x
-	 * @param y
-	 */
-	public Empty(int x, int y) {
-		// TODO - implement Empty.Empty
-		throw new UnsupportedOperationException();
+	public Empty() {
+		super(1,1 );
+
+
 	}
 
 	public void open() {
@@ -15,5 +11,4 @@ public class Empty extends Tile {
 		throw new UnsupportedOperationException();
 	}
 	//hello
-
 }

@@ -1,13 +1,8 @@
 public class Mine extends Tile {
 
-	/**
-	 * 
-	 * @param x
-	 * @param y
-	 */
-	public Mine(int x, int y) {
-		// TODO - implement Mine.Mine
-		throw new UnsupportedOperationException();
+
+	public Mine() {
+		super(1,1 );
 	}
 
 	public void open() {

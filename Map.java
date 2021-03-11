@@ -4,14 +4,8 @@ public class Map {
 	private int boardSizeY;
 	private int mineCount;
 
-	/**
-	 * 
-	 * @param sizeX
-	 * @param sizeY
-	 * @param mines
-	 */
 	public Map(int sizeX, int sizeY, int mines) {
-		// TODO - implement Map.Map
+
 		throw new UnsupportedOperationException();
 	}
 

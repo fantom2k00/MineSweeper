@@ -1,13 +1,7 @@
 public class Numbered extends Tile {
 
-	/**
-	 * 
-	 * @param x
-	 * @param y
-	 */
-	public Numbered(int x, int y) {
-		// TODO - implement Numbered.Numbered
-		throw new UnsupportedOperationException();
+	public Numbered() {
+		super(1,1 );
 	}
 
 	public void open() {
