@@ -6,12 +6,14 @@ public abstract class Tile {
 	protected int posY;
 	protected boolean flag;
 	protected boolean opened;
+	protected String type;
 
-	public Tile(int x, int y) {
+	public Tile(int x, int y, String tileType) {
 		posX = x;
 		posY = y;
 		flag = false;
 		opened = false;
+		type = tileType;
 	}
 
 	public int getPosX() {
@@ -28,6 +30,10 @@ public abstract class Tile {
 
 	public boolean getOpened() {
 		return this.opened;
+	}
+
+	public String getType() {
+		return this.type;
 	}
 
 	public void setPosX(int posX) {
