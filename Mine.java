@@ -1,8 +1,8 @@
 public class Mine extends Tile {
 
 
-	public Mine() {
-		super(1,1 );
+	public Mine(int x, int y) {
+		super(x, y);
 	}
 
 	public void open() {

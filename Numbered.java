@@ -1,7 +1,7 @@
 public class Numbered extends Tile {
 
-	public Numbered() {
-		super(1,1 );
+	public Numbered(int x, int y) {
+		super(x, y);
 	}
 
 	public void open() {

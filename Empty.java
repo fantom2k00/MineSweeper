@@ -1,7 +1,7 @@
 public class Empty extends Tile {
 
-	public Empty() {
-		super(1,1 );
+	public Empty(int x, int y) {
+		super(x, y);
 
 
 	}

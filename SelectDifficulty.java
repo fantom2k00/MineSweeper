@@ -36,13 +36,13 @@ public class SelectDifficulty extends JFrame implements ActionListener {
         if(e.getActionCommand().equals("OK"))
         {
             if(dropdown.getSelectedItem().toString().equals("Beginner")) {
-                Map map = new Map(300, 300, 99);
+                Map map = new Map(8*30 + 30, 8*30 + 2*30, 10);
             }
             else if(dropdown.getSelectedItem().toString().equals("Intermediate")) {
-                Map map = new Map(600, 600, 99);
+                Map map = new Map(16*30 + 30, 16*30 + 2*30, 40);
             }
             else {
-                Map map = new Map(1200, 1200, 99);
+                Map map = new Map(16*30 + 30, 30*30 + 2*30, 99);
             }
             frame.setVisible(false);
         }

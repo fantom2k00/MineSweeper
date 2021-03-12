@@ -1,3 +1,5 @@
+import javax.swing.*;
+
 public abstract class Tile {
 
 	protected int posX;
@@ -28,38 +30,22 @@ public abstract class Tile {
 		return this.opened;
 	}
 
-	/**
-	 * 
-	 * @param posX
-	 */
 	public void setPosX(int posX) {
 		this.posX = posX;
 	}
 
-	/**
-	 * 
-	 * @param posY
-	 */
 	public void setPosY(int posY) {
 		this.posY = posY;
 	}
 
-	/**
-	 * 
-	 * @param flag
-	 */
 	public void setFlag(boolean flag) {
 		this.flag = flag;
+		//TODO: Draw or Erase Flag on Tile
 	}
 
-	/**
-	 * 
-	 * @param opened
-	 */
 	public void setOpened(boolean opened) {
 		this.opened = opened;
 	}
 
 	public abstract void open();
-
 }
