@@ -1,12 +1,16 @@
-public class Map {
+import javax.swing.*;
+
+public class Map extends JFrame{
 
 	private int boardSizeX;
 	private int boardSizeY;
 	private int mineCount;
 
 	public Map(int sizeX, int sizeY, int mines) {
-
-		throw new UnsupportedOperationException();
+		JFrame frame = new JFrame("Mine Sweeper");
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.setSize(sizeX, sizeY);
+		frame.setVisible(true);
 	}
 
 	public int getBoardSizeX() {
@@ -21,48 +25,25 @@ public class Map {
 		return this.mineCount;
 	}
 
-	/**
-	 * 
-	 * @param boardSizeX
-	 */
 	public void setBoardSizeX(int boardSizeX) {
 		this.boardSizeX = boardSizeX;
 	}
 
-	/**
-	 * 
-	 * @param boardSizeY
-	 */
 	public void setBoardSizeY(int boardSizeY) {
 		this.boardSizeY = boardSizeY;
 	}
 
-	/**
-	 * 
-	 * @param mineCount
-	 */
 	public void setMineCount(int mineCount) {
 		this.mineCount = mineCount;
 	}
 
-	/**
-	 * 
-	 * @param x
-	 * @param y
-	 */
 	public void leftClick(int x, int y) {
 		// TODO - implement Map.leftClick
 		throw new UnsupportedOperationException();
 	}
 
-	/**
-	 * 
-	 * @param x
-	 * @param y
-	 */
 	public void rightClick(int x, int y) {
 		// TODO - implement Map.rightClick
 		throw new UnsupportedOperationException();
 	}
-
 }
